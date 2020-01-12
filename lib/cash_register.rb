@@ -36,12 +36,12 @@ class CashRegister
   def void_last_transaction
     #binding.pry
     
-    if @total = 0 
+    if @total - @last_trans = 0 
       #{@total}
     else
-     return @total -= @last_trans
+      @total -= @last_trans
     end
-    
+    @total
   end
   
 end
