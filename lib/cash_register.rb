@@ -36,7 +36,7 @@ class CashRegister
   def void_last_transaction
     #binding.pry
     if @total - @last_trans = 0 
-      @total
+      0 
     elsif
       @total -= @last_trans
         @total
