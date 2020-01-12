@@ -38,7 +38,7 @@ class CashRegister
     if @total - @last_trans = 0 
       0 
     elsif
-     return @total -= @last_trans
+     return @total = @total - @last_trans
         
     end
    
