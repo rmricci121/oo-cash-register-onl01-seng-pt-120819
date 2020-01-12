@@ -16,7 +16,7 @@ class CashRegister
       @item << title
       quantity -= 1 
     end
-  self.last_trans = price 
+  @last_trans = price * quantity
   
   end
   
