@@ -16,7 +16,7 @@ class CashRegister
       @item << title
       quantity -= 1 
     end
-  @total = @last_trans
+  
   
   end
   
